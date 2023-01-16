@@ -1,0 +1,11 @@
+{
+  "name": "nuxt-naive-ui-playground",
+  "version": "0.0.0",
+  "private": "true",
+  "scripts": {},
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@nuxt/components": "^2.2.1"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "nuxt-naive-ui",
+  "version": "0.0.0",
+  "description": "Zero-config Nuxt Framework for Naive-ui",
+  "exports": {
+    ".": {
+      "require": "./dist/module.cjs",
+      "import": "./dist/module.mjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "pnpm dev:prepare && pnpm nuxt-module-build",
+    "dev": "pnpm dev:prepare && nuxi dev playground",
+    "dev:build": "nuxi build playground",
+    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "prepublishOnly": "npm run build",
+    "release": "bumpp && pnpm publish",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
+  "keywords": [
+    "nuxt 3",
+    "naive",
+    "naive ui",
+    "plugin"
+  ],
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@css-render/vue3-ssr": "^0.15.12",
+    "@nuxt/kit": "^3.0.0",
+    "defu": "^6.1.1",
+    "naive-ui": "^2.34.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.34.1",
+    "@nuxt/module-builder": "^0.2.1",
+    "@nuxt/schema": "^3.0.0",
+    "bumpp": "^8.2.1",
+    "eslint": "^8.32.0",
+    "nuxt": "^3.0.0",
+    "tsx": "^3.12.2",
+    "vue": "^3.2.45"
+  }
+}
