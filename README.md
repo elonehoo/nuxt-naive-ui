@@ -1,11 +1,11 @@
 <p align='center'>
-<img src='./public/logo.svg' alt="nuxt-naive-ui - Zero-config Nuxt Framework for Naive-ui"><br>
+<img src='./public/logo.svg' alt="nuxt-naive - Zero-config Nuxt Framework for Naive-ui"><br>
 Zero-config Nuxt Framework for Naive-ui
 </p>
 
 <p align='center'>
-<a href='https://www.npmjs.com/package/nuxt-naive-ui' target="__blank">
-<img src='https://img.shields.io/npm/v/nuxt-naive-ui?color=00DC82&label=' alt="NPM version">
+<a href='https://www.npmjs.com/package/nuxt-naive' target="__blank">
+<img src='https://img.shields.io/npm/v/nuxt-naive?color=00DC82&label=' alt="NPM version">
 </a>
 
 <br>
