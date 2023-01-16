@@ -20,19 +20,19 @@ Zero-config Nuxt Framework for Naive-ui
 **npm**
 
 ```bash
-npm install nuxt-naive-ui
+npm install nuxt-naive
 ```
 
 **yarn**
 
 ```bash
-yarn add nuxt-naive-ui
+yarn add nuxt-naive
 ```
 
 **pnpm**
 
 ```bash
-pnpm install nuxt-naive-ui
+pnpm install nuxt-naive
 ```
 
 ## Nuxt Config
@@ -40,7 +40,7 @@ pnpm install nuxt-naive-ui
 ```ts
 export default defineNuxtConfig({
   modules: [
-    '@huntersofbook/naive-ui-nuxt'
+    'nuxt-naive'
   ],
 })
 ```
