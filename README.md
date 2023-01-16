@@ -1,5 +1,5 @@
 <p align='center'>
-<img src='./public' alt="nuxt-naive-ui - Zero-config Nuxt Framework for Naive-ui"><br>
+<img src='./public/logo.svg' alt="nuxt-naive-ui - Zero-config Nuxt Framework for Naive-ui"><br>
 Zero-config Nuxt Framework for Naive-ui
 </p>
 
