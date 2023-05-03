@@ -33,19 +33,19 @@
   },
   "dependencies": {
     "@css-render/vue3-ssr": "^0.15.12",
-    "@nuxt/kit": "^3.4.2",
+    "@nuxt/kit": "^3.4.3",
     "defu": "^6.1.2",
     "naive-ui": "^2.34.3"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.38.5",
-    "@nuxt/module-builder": "^0.3.0",
-    "@nuxt/schema": "^3.4.2",
-    "@types/node": "^18.16.1",
+    "@nuxt/module-builder": "^0.3.1",
+    "@nuxt/schema": "^3.4.3",
+    "@types/node": "^18.16.3",
     "bumpp": "^9.1.0",
     "eslint": "^8.39.0",
-    "nuxt": "^3.4.2",
-    "tsx": "^3.12.6",
+    "nuxt": "^3.4.3",
+    "tsx": "^3.12.7",
     "typescript": "^5.0.4",
     "vue": "^3.2.47"
   }
