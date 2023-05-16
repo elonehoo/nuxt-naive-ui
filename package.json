@@ -1,6 +1,6 @@
 {
   "name": "nuxt-naive",
-  "version": "0.0.14",
+  "version": "0.0.15",
   "description": "Zero-config Nuxt Framework for Naive-ui",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
