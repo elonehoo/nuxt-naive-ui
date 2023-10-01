@@ -33,20 +33,20 @@
   },
   "dependencies": {
     "@css-render/vue3-ssr": "^0.15.12",
-    "@nuxt/kit": "^3.6.5",
+    "@nuxt/kit": "^3.7.4",
     "defu": "^6.1.2",
     "naive-ui": "^2.34.4"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.39.8",
-    "@nuxt/module-builder": "^0.4.0",
-    "@nuxt/schema": "^3.6.5",
-    "@types/node": "^20.4.4",
-    "bumpp": "^9.1.1",
-    "eslint": "^8.45.0",
-    "nuxt": "^3.6.5",
-    "tsx": "^3.12.7",
-    "typescript": "^5.1.6",
+    "@antfu/eslint-config": "1.0.0-beta.18",
+    "@nuxt/module-builder": "^0.5.2",
+    "@nuxt/schema": "^3.7.4",
+    "@types/node": "^20.8.0",
+    "bumpp": "^9.2.0",
+    "eslint": "^8.50.0",
+    "nuxt": "^3.7.4",
+    "tsx": "^3.13.0",
+    "typescript": "^5.2.2",
     "vue": "^3.3.4"
   }
 }

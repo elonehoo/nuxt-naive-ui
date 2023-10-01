@@ -21,7 +21,7 @@ export default defineNuxtModule<ModuleOptions>({
     version,
     configKey: 'naiveUI',
     compatibility: {
-      nuxt: '^3.6.5',
+      nuxt: '^3.7.4',
     },
   },
   setup(moduleOptions, nuxt) {
@@ -45,7 +45,7 @@ export default defineNuxtModule<ModuleOptions>({
     }
 
     nuxt.hook('prepare:types', ({ tsConfig, references }) => {
-      tsConfig.compilerOptions!.types.push('naive-ui/volar')
+      tsConfig.compilerOptions!.types!.push('naive-ui/volar')
       references.push({
         path: resolve(nuxt.options.buildDir, 'types/naive-ui.d.ts'),
       })
