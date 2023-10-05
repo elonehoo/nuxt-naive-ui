@@ -35,13 +35,13 @@
     "@css-render/vue3-ssr": "^0.15.12",
     "@nuxt/kit": "^3.7.4",
     "defu": "^6.1.2",
-    "naive-ui": "^2.34.4"
+    "naive-ui": "^2.35.0"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "1.0.0-beta.18",
+    "@antfu/eslint-config": "1.0.0-beta.19",
     "@nuxt/module-builder": "^0.5.2",
     "@nuxt/schema": "^3.7.4",
-    "@types/node": "^20.8.0",
+    "@types/node": "^20.8.2",
     "bumpp": "^9.2.0",
     "eslint": "^8.50.0",
     "nuxt": "^3.7.4",
